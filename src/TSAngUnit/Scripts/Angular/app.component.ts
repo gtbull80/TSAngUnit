@@ -10,6 +10,6 @@ export class AppComponent implements OnInit {
     private message: string;
 
     ngOnInit() {
-        this.message = "Go Home!";
+        this.message = "Go Home!  Because home is nice!";
     }
 }
