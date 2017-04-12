@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "es5",
+        "module": "commonjs",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "outDir": "wwwroot/app/",
+        "rootDir": "./Scripts"
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot",
+        "typings"
+    ],
+    "compileOnSave": true
+}
